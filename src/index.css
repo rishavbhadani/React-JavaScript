@@ -1,0 +1,118 @@
+/* Add global styles and reset */
+body, h1, p, ul, li {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f5f5f5;
+}
+
+/* Header Styles */
+header {
+  background-color: #3498db;
+  color: white;
+  padding: 10px 0;
+  text-align: center;
+}
+
+/* Week Navigation Styles */
+.week-nav {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  padding: 0;
+  margin: 20px 0;
+}
+
+.week-nav li {
+  margin: 0 10px;
+  cursor: pointer;
+  /* Add styles for week navigation */
+}
+
+/* Container Styles */
+.container {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 20px;
+}
+
+.week-details {
+  flex: 1;
+  background-color: #f2f2f2;
+  padding: 20px;
+  border-radius: 5px;
+  /* Add styles for week details */
+}
+
+.week-description {
+  flex: 2;
+  background-color: #f9f9f9;
+  padding: 20px;
+  border-radius: 5px;
+  /* Add styles for week description */
+}
+
+.side-box {
+  flex: 1;
+  background-color: #f2f2f2;
+  padding: 20px;
+  border-radius: 5px;
+  margin-left: 20px;
+  /* Add styles for side box */
+}
+
+/* Popup Styles */
+.popup {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  justify-content: center;
+  align-items: center;
+  /* Add styles for popup */
+}
+
+#weekForm {
+  background-color: white;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column;
+}
+
+#weekNumber {
+  margin-bottom: 10px;
+  padding: 5px;
+  border: 1px solid #ddd;
+  border-radius: 3px;
+  font-size: 14px;
+}
+
+#weekNumber:focus {
+  outline: none;
+  border-color: #3498db;
+}
+
+/* Week Box Styles */
+.week {
+  background-color: #e0e0e0;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  padding: 10px;
+  margin: 10px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.week:hover {
+  background-color: #d0d0d0;
+}
+
+/* Add your custom styles based on the design */
